@@ -65,38 +65,6 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -105,16 +73,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Bug Bounty"
+    },
+    {
+      skillName: "Linux server management"
+    },
+    {
+      skillName: "CTF player"
+    },
+    {
+      skillName: "PHP"
+    },
+    {
+      skillName: "MASM/NASM"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -138,11 +117,11 @@ const educationInfo = {
     }*/
     {
       schoolName: "GLA University Mathura",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/gla.jpg"),
       subHeader: "Btech(CS) with IBM specilizaton",
       duration: "July 2020 - MAY 2024",
-      desc: "Opted Cyber Security & Forensics, been head of CyberSecurity Club in University",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elitTHANDEL1"]
+      desc: "Opted Cyber Security & Forensics",
+      descBullets: ["Head of Cyberonites Club", "Helped a lot of friends", "Collab on projects"]
     }
   ]
 };
@@ -153,16 +132,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Web Penetration Testing", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Binary Exploitation",
       progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -194,7 +173,7 @@ const workExperiences = {
     {
       role: "Article Writer",
       company: "technicalnavigator.in",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/TN.png"),
       date: "Jan 2018 – Sep 2020",
       desc: "Technical Article writing related to Cyber Security, (still doing it as a hobby)"
     }
@@ -216,7 +195,7 @@ const bigProjects = {
   subtitle: "HAVE WORKED ON MY OWN OPEN-SOURCE PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/Luna.png"),
       projectName: "LUNA",
       projectDesc: "A SERVER WHICH SERVES DOCKER CONTAINERS",
       footerLink: [
@@ -297,7 +276,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -309,16 +288,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://technicalnavigator.in/file-descriptors-linux/",
+      title: "File descriptors in Linux",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Explained how does read and write syscalls work, what a file descriptor is, what is equvalent of this in Windows"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://technicalnavigator.in/telnet-ftp-analysis/",
+      title: "FTP & Telnet analysis",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Telnet & FTP pcap file analysis, showed how packets travles in both protocols."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -340,7 +319,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
